@@ -111,7 +111,7 @@ modcp: mod_copy {
 &kp ENTER AS(A) AS(S) AS(D) AS(F) AS(G)                AS(H) AS(J) AS(K)  AS(L) AS(SEMI) AS(SQT) 
 &kp CAPS  AS(Z) AS(X) AS(C) AS(V) AS(B)                AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) AS(BSLH) 
 &kp LC(C) &kp LC(V) &kp BSPC &kp SPACE                     &lt 2 LEFT  &lt 1 RIGHT    AS(LBKT)   AS(RBKT)           
-&kp LALT &none	&mt LCTRL LSHFT	&mt LGUI DEL 	        &kp LSHFT &kp LAL &none	&mo 3 
+&kp LALT &none	&mt LCTRL LSHFT	&mt LGUI DEL 	        &kp LSHFT &kp LALT &none &mo 3 
 
             >;
         };
@@ -138,7 +138,7 @@ modcp: mod_copy {
 &kp C_BRI_UP &kp C_BRI_DN &kp DLLR   &kp PRCNT   &kp CARET &none      &none &kp LEFT &kp DOWN &kp RIGHT  &none &none 
  &none  &kp GRAVE &kp EXCL  &kp AT   &kp HASH   &none     &none &none &none &none  &none &none
  &none &none &kp C_RW &kp C_FF                                      &none &none &none &none 
- &none &none &kp LSHFT  &none                                   &none &none &none &none                                                                                             
+ &none &none &none    &none                                   &none &none &none &none                                                                                             
         
          >;
         };

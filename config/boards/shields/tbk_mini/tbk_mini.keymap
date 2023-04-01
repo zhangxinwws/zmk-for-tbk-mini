@@ -111,7 +111,7 @@ modcp: mod_copy {
 &kp ENTER AS(A) AS(S) AS(D) AS(F) AS(G)                AS(H) AS(J) AS(K)  AS(L) AS(SEMI) AS(SQT) 
 &kp CAPS  AS(Z) AS(X) AS(C) AS(V) AS(B)                AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) AS(BSLH) 
 &kp LC(C) &kp LC(V) &kp BSPC &kp SPACE                     &lt 2 LEFT  &lt 1 RIGHT    AS(LBKT)   AS(RBKT)           
-&kp LALT &none	&mt LCTRL LSHFT	&mt LGUI DEL 	        &kp LSHFT &kp LALT &none &mo 3 
+&kp LALT &none	&mt LCTRL LSHFT	&mt LGUI DEL 	        &kp LSHFT &kp LALT &none  &lt 3  LGUI
 
             >;
         };

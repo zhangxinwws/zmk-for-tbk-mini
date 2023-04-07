@@ -47,7 +47,7 @@ modcp: mod_copy {
         label = "MOD_COPY";
         #binding-cells = <0>;
         bindings = <&as LS(C) C>, <&kp C>;
-        mods = <(MOD_LGUI | MOD_RGUI)>;
+        mods = <(LGUI | RGUI)>;
 };
   
         };
@@ -167,9 +167,8 @@ modcp: mod_copy {
         &none &none &none &none &none &none                                                  &none &none &none &none &none &none
          &none &none &none &none &none &none                                                  &none &none &none &none &none &none
          &none &none &none &none                                                              &none &none &none &none
-          &none &none &none &none                                                              &none &none &none &none  
+          &none &none &none &none                                                              &none &none &none &sys_reset
            >;
        };
    };
 };
-

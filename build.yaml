@@ -14,6 +14,6 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: Y64_left
+    shield: tbk_mini_left
   - board: nrfmicro_13
-    shield: Y64_right
+    shield: tbk_mini_right

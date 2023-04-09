@@ -4,7 +4,7 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
-# board: [ "nice_nano_v2" ]
+# board: [ "nice_nano_v2" ] nrfmicro_13
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: Y64_left
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: Y64_right

@@ -1,0 +1,14 @@
+file_format: "1"
+id: Y64
+name: Y64
+type: shield
+url: 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - Y64_left
+  - Y64_right
